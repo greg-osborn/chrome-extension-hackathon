@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Prettier2.0",
+  "description": "Bored of the default theme of your webpage? Use Prettier2.0 to get the celebratory theme of your dreams.",
+  "version": "1.0",
+  "content_scripts": [
+      {"matches": ["*://*/*"],"js": ["./main.js"]
+}
+]
+}
